@@ -70,7 +70,6 @@ Get-FileHash .\WeType-Tool-v1.2.8-legacy.apk -Algorithm SHA256
 
 反馈时请尽量提供：
 
-- APK 完整文件名
 - Tool 版本
 - 微信输入法版本和 versionCode
 - 手机型号与 Android 版本
@@ -84,7 +83,7 @@ Get-FileHash .\WeType-Tool-v1.2.8-legacy.apk -Algorithm SHA256
 ## 相关项目
 
 - [WeType Monet](https://github.com/0x1e93d/WeType_Monet)：微信输入法 Monet 风格适配
-- [MWGA](https://github.com/0x1e93d/MWGA)：WeType Tool 免 Root 内置组合包
+- [MWGA](https://github.com/0x1e93d/WeType-Tool-Patch)：WeType Tool 免 Root 内置组合包
 
 ## 免责声明
 
