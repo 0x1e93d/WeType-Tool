@@ -32,7 +32,7 @@ WeType-Tool-v1.2.8-legacy.apk
 
 适用于兼容模式或较旧环境。
 
-Legacy 版本也用于 WeType Tool 的免 Root 内置组合包。
+Legacy 版本也用于 WeType Tool 的免 Root 内置版本。
 
 如果不确定应该选择哪个版本，建议先使用 Legacy 版本。
 
