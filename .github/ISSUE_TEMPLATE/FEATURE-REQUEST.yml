@@ -1,0 +1,67 @@
+name: "功能增强建议"
+description: "提出新功能、体验优化或兼容性改进建议"
+title: "[Feature] "
+labels: ["enhancement"]
+
+body:
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: "建议类型"
+      options:
+        - "新增功能"
+        - "优化现有功能"
+        - "兼容性支持"
+        - "界面与交互优化"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "功能建议"
+      description: "请尽可能具体地描述希望增加或修改的功能。"
+      placeholder: "例如：为 26 键和九键布局分别提供独立的下滑阈值设置。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: "期望效果"
+      description: "完成该功能后，希望具体解决什么问题？"
+      placeholder: "请描述理想的操作流程和最终效果。"
+    validations:
+      required: true
+
+  - type: input
+    id: wetype-version
+    attributes:
+      label: "微信输入法版本"
+      placeholder: "例如：2.3.1"
+    validations:
+      required: false
+
+  - type: input
+    id: tool-version
+    attributes:
+      label: "Tool 版本"
+      placeholder: "例如：1.0.0"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "补充信息"
+      description: "可以补充相关截图、操作场景、参考项目或其他说明。"
+    validations:
+      required: false
+
+  - type: upload
+    id: attachments
+    attributes:
+      label: "附件"
+      description: "可上传截图、录屏或其他有助于理解建议的文件。"
+    validations:
+      required: false
