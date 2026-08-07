@@ -1,0 +1,70 @@
+name: "Bug 反馈"
+description: "报告微信输入法工具中遇到的问题"
+title: "[Bug] "
+labels: ["bug"]
+
+body:
+  - type: textarea
+    id: imprint
+    attributes:
+      label: "版本说明"
+      description: "请填写微信输入法和 Tool 的版本。"
+      value: |
+        微信输入法版本：
+        Tool 版本：
+    validations:
+      required: true
+
+  - type: textarea
+    id: device-environment
+    attributes:
+      label: "设备环境"
+      description: "请填写发生问题时的设备和 Root 环境。"
+      value: |
+        手机型号：
+        Android 版本：
+        是否 Root：是 / 否
+        使用的 Root 环境：Magisk / KernelSU / 其他 / 无
+        是否安装其他可能影响输入法的模块：无 / 有
+        如果有，请填写模块名称、版本和作用域：
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "问题描述"
+      placeholder: "请描述实际表现、预期表现以及问题出现的频率。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "复现步骤"
+      description: "请提供可以稳定复现问题的操作步骤。"
+      value: |
+        1.
+        2.
+        3.
+        4.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "相关日志"
+      description: "请粘贴关键日志。完整日志可以在下方上传。"
+      render: bash
+    validations:
+      required: false
+
+  - type: upload
+    id: attachments
+    attributes:
+      label: "日志、截图或录屏"
+      description: "可上传日志、压缩包、截图或录屏。"
+    validations:
+      required: false
+      accept: ".log,.txt,.zip,.png,.jpg,.jpeg,.gif,.webp,.mp4,.mov,.webm"
