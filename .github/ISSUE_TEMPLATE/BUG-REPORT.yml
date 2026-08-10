@@ -51,20 +51,11 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: logs
-    attributes:
-      label: "相关日志"
-      description: "请粘贴关键日志。完整日志可以在下方上传。"
-      render: bash
-    validations:
-      required: false
-
   - type: upload
     id: attachments
     attributes:
-      label: "日志、截图或录屏"
-      description: "可上传日志、压缩包、截图或录屏。"
+      label: "日志"
+      description: "上传日志。"
     validations:
-      required: false
-      accept: ".log,.txt,.zip,.png,.jpg,.jpeg,.gif,.webp,.mp4,.mov,.webm"
+      required: true
+      accept: ".log,.zip,.png,.jpg,.jpeg,.gif,.webp,.mp4,.mov,.webm"
