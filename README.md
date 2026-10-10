@@ -4,9 +4,9 @@ WeType Tool 是面向微信输入法的功能扩展模块。本仓库用于发�
 
 ## 下载
 
-当前正式版：[v2.0.3](https://github.com/0x1e93d/WeType-Tool/releases/tag/v2.0.3)。
+当前正式版：[v2.0.4](https://github.com/0x1e93d/WeType-Tool/releases/tag/v2.0.4)。
 
-- `WeType-Tool-v2.0.3.apk`：用于 LSPosed 的模块安装包。
+- `WeType-Tool-v2.0.4.apk`：用于 LSPosed 的模块安装包。
 - `WeType-4.0.0-Patched-v1.2.apk`：已内置模块的微信输入法安装包，无需额外安装模块。
 - `SHA256SUMS.txt`：两个 APK 的 SHA-256 校验值。
 
