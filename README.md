@@ -26,25 +26,25 @@ WeType Tool 是面向[微信输入法](https://z.weixin.qq.com/)的功能扩展�
 
 ## 下载与文件
 
-当前正式版：[v2.0.9](https://github.com/0x1e93d/WeType-Tool/releases/tag/v2.0.9)。请从同一版本的 Release 下载所需文件。
+当前正式版：[v2.1.0](https://github.com/0x1e93d/WeType-Tool/releases/tag/v2.1.0)。请从同一版本的 Release 下载所需文件。
 
 | 文件 | 用途 |
 | --- | --- |
-| [WeType-Tool-v2.0.9.apk](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.0.9/WeType-Tool-v2.0.9.apk) | **LSPosed 模块版**。已安装微信输入法和 LSPosed 的用户选择此包。 |
-| [WeType-4.0.0-Patched-v1.2.apk](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.0.9/WeType-4.0.0-Patched-v1.2.apk) | **内置版微信输入法**。已将模块嵌入微信输入法，无需另装模块或 LSPosed。 |
-| [SHA256SUMS.txt](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.0.9/SHA256SUMS.txt) | 上述两个 APK 的 SHA-256 校验值，用于核对下载文件。 |
+| [WeType-Tool-v2.1.0.apk](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.1.0/WeType-Tool-v2.1.0.apk) | **LSPosed 模块版**。已安装微信输入法和 LSPosed 的用户选择此包。 |
+| [WeType-4.0.0-Patched-v1.2.apk](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.1.0/WeType-4.0.0-Patched-v1.2.apk) | **内置版微信输入法**。已将模块嵌入微信输入法，无需另装模块或 LSPosed。 |
+| [SHA256SUMS.txt](https://github.com/0x1e93d/WeType-Tool/releases/download/v2.1.0/SHA256SUMS.txt) | 上述两个 APK 的 SHA-256 校验值，用于核对下载文件。 |
 
-文件名中的 `2.0.9` 是 WeType Tool 版本，`4.0.0` 是内置版使用的微信输入法版本，`1.2` 是打包所用的 LSPatch 版本。内置版基于 [WeType_Monet Releases](https://github.com/0x1e93d/WeType_Monet/releases) 提供的微信输入法原始 APK 和 [JingMatrix LSPatch v1.2](https://github.com/JingMatrix/LSPatch/releases/tag/v1.2)构建。
+文件名中的 `2.1.0` 是 WeType Tool 版本，`4.0.0` 是内置版使用的微信输入法版本，`1.2` 是打包所用的 LSPatch 版本。内置版基于 [WeType_Monet Releases](https://github.com/0x1e93d/WeType_Monet/releases) 提供的微信输入法原始 APK 和 [JingMatrix LSPatch v1.2](https://github.com/JingMatrix/LSPatch/releases/tag/v1.2)构建。
 
 ## 安装方式
 
-1. **LSPosed 模块版**：安装 `WeType-Tool-v2.0.9.apk`，在 LSPosed 中启用模块并勾选微信输入法作用域，然后完整重启微信输入法。
+1. **LSPosed 模块版**：安装 `WeType-Tool-v2.1.0.apk`，在 LSPosed 中启用模块并勾选微信输入法作用域，然后完整重启微信输入法。
 2. **内置版**：先备份微信输入法数据，再卸载官方微信输入法并安装 `WeType-4.0.0-Patched-v1.2.apk`。内置版签名与官方包不同，不能直接覆盖安装；也无需再安装模块 APK。
 
 两种方式选择其一。启用后可从微信输入法设置界面的模块入口打开 WeType Tool。当前 APK 要求 Android 9 及以上、arm64-v8a 设备；部分系统相关功能仅在相应机型上提供。
 
 ## 校验与反馈
 
-下载两个 APK 和 `SHA256SUMS.txt` 后，可在文件所在目录运行 `sha256sum -c SHA256SUMS.txt` 校验。Windows 用户可用 `Get-FileHash .\WeType-Tool-v2.0.9.apk -Algorithm SHA256`，将结果与校验文件比较。
+下载两个 APK 和 `SHA256SUMS.txt` 后，可在文件所在目录运行 `sha256sum -c SHA256SUMS.txt` 校验。Windows 用户可用 `Get-FileHash .\WeType-Tool-v2.1.0.apk -Algorithm SHA256`，将结果与校验文件比较。
 
 遇到问题时，请在 [Issues](https://github.com/0x1e93d/WeType-Tool/issues) 中说明安装包文件名、设备与 Android 版本、复现步骤；也可以在模块“设置 → 导出诊断包”中复现后导出日志，检查并脱敏后再附上。
