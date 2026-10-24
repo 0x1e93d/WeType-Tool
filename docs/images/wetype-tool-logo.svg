@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="18 18 72 72" role="img" aria-labelledby="title desc">
+  <title id="title">WeType Tool Logo</title>
+  <desc id="desc">沿用模块图标的蓝紫色底与白色字形。</desc>
+  <rect x="18" y="18" width="72" height="72" rx="17" fill="#4F639D"/>
+  <g transform="translate(54 54) scale(.65) translate(-54 -54)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 22 38 86M20 58H67M67 22H72M67 58C79 58 88 50 88 40C88 30 81 22 72 22" stroke="#9ED7FF" stroke-width="8"/>
+    <path d="M55 20 35 84M18 56H65M65 20H70M65 56C77 56 86 48 86 38C86 28 79 20 70 20" stroke="#FFF" stroke-width="6"/>
+  </g>
+</svg>
